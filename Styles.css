@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+}
+
+.logo-card {
+  flex: 1;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  max-height: 100%;
+}
+
+.logo-card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title-bar {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 15vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.title-bar h1 {
+  color: white;
+}
+
+.credits {
+  width: 100%;
+  position: absolute;
+  top: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credits p {
+  margin: 0;
+  padding: 0;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  background-color: azure;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 75px;
+  flex: 1;
+}
+
+.hero > h1 {
+  font-size: 1.75rem;
+}
+
+.sign-up-card {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section {
+  flex: 1;
+  background-color: white;
+  box-shadow: 0px 1px 15px;
+  padding: 32px;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+}
+
+.input-row {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.input-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-section {
+  padding: 32px;
+  flex: 1;
+}
