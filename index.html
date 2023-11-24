@@ -4,34 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up! Diamond
-    </title>
+    <title>Sign Up! Horizon</title>
     <link rel="stylesheet" href="Styles.css">
+    <script src="scripts.js" defer></script>
 </head>
 
 <body>
     <div class="logo-card">
-        <img src="Images/evie-s-vSJpXjUzXPA-unsplash.jpg" alt="Diamond">
+        <img src="Images/nong-kdVGvy2dunA-unsplash.jpg" alt="Diamond">
         <div class="title-bar">
-            <img src="Images/diamond-svgrepo-com.svg" alt="Diamond Logo" height="50" width="50">
-            <h1>Diamond Supplies</h1>
+            <img src="Images/cloud-outline.svg" alt="Diamond Logo" class="filter-white" height="50" width="50">
+            <h1>Horizon Consulting</h1>
         </div>
         <div class="credits">
             <p>Photo by <a
-                    href="https://unsplash.com/@evieshaffer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Evie
-                    S.</a> on <a
-                    href="https://unsplash.com/photos/blue-and-yellow-glass-ball-vSJpXjUzXPA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    href="https://unsplash.com/@californong?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nong</a>
+                on <a
+                    href="https://unsplash.com/photos/body-of-water-kdVGvy2dunA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
             </p>
         </div>
     </div>
-    <div class="sign-up">
+    <div class="sign-up-container">
         <div class="hero">
             <h1>This is not a real online service! It's just a simple recreation that makes you wish it was. Sign up
                 now to get started.
             </h1>
             <h1>You <em>know</em> you want to.</h1>
         </div>
-        <form action="./Handling-page" method="post" class="sign-up-card">
+        <form action="" method="" class="sign-up-card">
             <div class="input-section">
                 <h1>Let's do this!</h1>
                 <div class="inputs">
@@ -46,27 +46,27 @@
                         </div>
                         <div class="input-card">
                             <label for="password">Password</label>
-                            <input type="password" name="password" id="password">
+                            <input type="password" name="password" id="password" required>
                         </div>
                     </div>
                     <div class="input-row">
                         <div class="input-card">
                             <label for="last">Last name</label>
-                            <input type="text" name="last" id="text">
+                            <input type="text" name="last" id="last">
                         </div>
                         <div class="input-card">
                             <label for="phone">Phone number</label>
-                            <input type="number" name="phone" id="phone">
+                            <input type="number" name="phone" id="phone" minlength="7">
                         </div>
                         <div class="input-card">
                             <label for="confirm">Confirm Password</label>
-                            <input type="password" name="confirm" id="confirm">
+                            <input type="password" name="confirm" id="confirm" required>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="submit-section">
-                <button type="submit" class="submit-btn">Submit</button>
+                <button type="submit" id="submit-btn">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </form>
