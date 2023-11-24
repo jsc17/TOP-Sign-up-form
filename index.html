@@ -35,33 +35,32 @@
             <div class="input-section">
                 <h1>Let's do this!</h1>
                 <div class="inputs">
-                    <div class="input-row">
-                        <div class="input-card">
-                            <label for="first">First name</label>
-                            <input type="text" name="first" id="first">
-                        </div>
-                        <div class="input-card">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email">
-                        </div>
-                        <div class="input-card">
-                            <label for="password">Password</label>
-                            <input type="password" name="password" id="password" required>
-                        </div>
+                    <div class="input-item">
+                        <input type="text" name="first" id="first" placeholder="First name" required>
+                        <p class="error error-hidden">hello</p>
                     </div>
-                    <div class="input-row">
-                        <div class="input-card">
-                            <label for="last">Last name</label>
-                            <input type="text" name="last" id="last">
-                        </div>
-                        <div class="input-card">
-                            <label for="phone">Phone number</label>
-                            <input type="number" name="phone" id="phone" minlength="7">
-                        </div>
-                        <div class="input-card">
-                            <label for="confirm">Confirm Password</label>
-                            <input type="password" name="confirm" id="confirm" required>
-                        </div>
+                    <div class="input-item">
+                        <input type="text" name="last" id="last" placeholder="Last Name" required>
+                        <p class="error error-hidden">hello</p>
+                    </div>
+                    <div class="input-item">
+                        <input type="email" name="email" id="email" placeholder="Email Address" required>
+                        <p class="error error-hidden">hello</p>
+                    </div>
+                    <div class="input-item">
+                        <input type="tel" name="phone" id="phone" placeholder="Phone Number ex. 111-222-3333"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        <p class="error error-hidden">hello</p>
+                    </div>
+                    <div class="input-item">
+                        <input type="password" name="password" id="password" placeholder="Password" minlength="8"
+                            required>
+                        <p class="error error-hidden">hello</p>
+                    </div>
+                    <div class="input-item">
+                        <input type="password" name="confirm" id="confirm" placeholder="Confirm Password" minlength="8"
+                            required>
+                        <p class="error error-hidden">hello</p>
                     </div>
                 </div>
             </div>
